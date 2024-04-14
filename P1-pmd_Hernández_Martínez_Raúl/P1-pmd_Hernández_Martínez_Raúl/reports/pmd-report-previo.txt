@@ -1,0 +1,56 @@
+src/juego/geometria/Direccion.java:5:	enumCommentRequirement Required
+src/juego/geometria/Direccion.java:8:	publicMethodCommentRequirement Required
+src/juego/geometria/Direccion.java:18:	publicMethodCommentRequirement Required
+src/juego/geometria/Punto.java:3:	Avoid importing anything from the package java.lang
+src/juego/geometria/Punto.java:4:	Avoid unused imports such as 'java.util.Random'
+src/juego/geometria/Punto.java:11:	fieldCommentRequirement Required
+src/juego/geometria/Punto.java:13:	Avoid variables with short names like x
+src/juego/geometria/Punto.java:13:	Use explicit scoping instead of the default package private level
+src/juego/geometria/Punto.java:13:	fieldCommentRequirement Required
+src/juego/geometria/Punto.java:14:	Avoid variables with short names like y
+src/juego/geometria/Punto.java:14:	Use explicit scoping instead of the default package private level
+src/juego/geometria/Punto.java:14:	fieldCommentRequirement Required
+src/juego/geometria/Punto.java:18:	publicMethodCommentRequirement Required
+src/juego/geometria/Punto.java:24:	Avoid variables with short names like x
+src/juego/geometria/Punto.java:24:	Avoid variables with short names like y
+src/juego/geometria/Punto.java:24:	publicMethodCommentRequirement Required
+src/juego/geometria/Punto.java:30:	publicMethodCommentRequirement Required
+src/juego/geometria/Punto.java:53:	Switch statements should have a default label
+src/juego/geometria/Punto.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/juego/geometria/Punto.java:79:	Comment is too large: Line too long
+src/juego/geometria/Punto.java:98:	publicMethodCommentRequirement Required
+src/juego/geometria/Punto.java:102:	publicMethodCommentRequirement Required
+src/juego/geometria/Punto.java:116:	Avoid unused private methods such as 'distancia(Punto)'.
+src/juego/geometria/Punto.java:117:	Potential violation of Law of Demeter (method chain calls)
+src/juego/geometria/Punto.java:117:	Potential violation of Law of Demeter (method chain calls)
+src/juego/geometria/Punto.java:117:	Potential violation of Law of Demeter (method chain calls)
+src/juego/geometria/Punto.java:117:	Potential violation of Law of Demeter (method chain calls)
+src/juego/geometria/Punto.java:121:	publicMethodCommentRequirement Required
+src/juego/geometria/Punto.java:122:	Potential violation of Law of Demeter (method chain calls)
+src/juego/geometria/Punto.java:126:	The method name and parameter number are suspiciously close to equals(Object)
+src/juego/geometria/Punto.java:126:	publicMethodCommentRequirement Required
+src/juego/geometria/Punto.java:132:	Useless parentheses.
+src/juego/geometria/Punto.java:135:	clone() method should be implemented only if implementing Cloneable interface
+src/juego/geometria/Punto.java:136:	publicMethodCommentRequirement Required
+src/juego/geometria/circulo.java:3:	headerCommentRequirement Required
+src/juego/geometria/circulo.java:4:	The field name indicates a constant but its modifiers do not
+src/juego/geometria/circulo.java:4:	fieldCommentRequirement Required
+src/juego/geometria/circulo.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/juego/geometria/circulo.java:6:	fieldCommentRequirement Required
+src/juego/geometria/circulo.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/juego/geometria/circulo.java:7:	fieldCommentRequirement Required
+src/juego/geometria/circulo.java:9:	Avoid unused constructor parameters such as 'centroIni'.
+src/juego/geometria/circulo.java:9:	publicMethodCommentRequirement Required
+src/juego/geometria/circulo.java:13:	publicMethodCommentRequirement Required
+src/juego/geometria/circulo.java:17:	publicMethodCommentRequirement Required
+src/juego/geometria/circulo.java:21:	publicMethodCommentRequirement Required
+src/juego/geometria/circulo.java:25:	publicMethodCommentRequirement Required
+src/juego/geometria/circulo.java:29:	publicMethodCommentRequirement Required
+src/juego/geometria/circulo.java:33:	publicMethodCommentRequirement Required
+src/juego/pruebas/Programa.java:5:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/juego/pruebas/Programa.java:5:	headerCommentRequirement Required
+src/juego/pruebas/Programa.java:7:	publicMethodCommentRequirement Required
+src/juego/pruebas/Programa.java:16:	An operation on an Immutable object (String, BigDecimal or BigInteger) wont change the object itself
+src/juego/pruebas/Programa.java:16:	Potential violation of Law of Demeter (object not created locally)
+src/juego/pruebas/Programa.java:18:	Use equals() to compare strings instead of '==' or '!='
+src/juego/pruebas/Programa.java:20:	System.out.println is used

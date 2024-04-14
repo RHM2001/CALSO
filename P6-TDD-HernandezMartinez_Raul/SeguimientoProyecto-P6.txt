@@ -1,0 +1,1228 @@
+
+0. Estado inicial de la clase.
+
+	public void jugar(int x, int y) {
+		
+	}
+
+ ----------------------------------------------	
+
+1. TestPosicionEnTablero11();
+
+	public void jugar(int x, int y) {
+		
+	}
+
+	public boolean comprobarPosicion(int x, int y){
+		return true;
+	} 
+	
+ ----------------------------------------------
+
+2. TestPosicionEnTablero01();
+
+	public void jugar(int x, int y) {
+		
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1){
+			return false;
+		}
+		
+		return true;
+	}
+
+ ----------------------------------------------
+
+3. testPosicionEnTablero41();
+
+	public void jugar(int x, int y) {
+		
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1){
+			return false;
+		}
+
+		return true;
+	}
+
+----------------------------------------------
+
+4. testPosicionEnTablero41();
+
+	public void jugar(int x, int y) {
+		
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4){
+			return false;
+		}
+		
+		return true;
+	}
+
+----------------------------------------------
+
+5. testPosicionNoEnTablero00();
+
+	public void jugar(int x, int y) {
+		
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4){
+			return false;
+		}
+		
+		return true;
+	}
+
+
+----------------------------------------------
+
+6. testPosicionEnTablero10();
+
+	public void jugar(int x, int y) {
+		
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1){
+			return false;
+		}
+		
+		return true;
+	}
+
+----------------------------------------------
+
+7. testPosicionEnTablero14();
+
+	public void jugar(int x, int y) {
+		
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1){
+			return false;
+		}
+		
+		return true;
+	}
+
+----------------------------------------------
+
+8. testPosicionEnTablero15();
+
+	public void jugar(int x, int y) {
+		
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		return true;
+	}
+
+----------------------------------------------
+
+9. testJugar00()
+
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		return true;
+	}
+
+----------------------------------------------
+
+10. testJugar10()
+
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		return true;
+	}
+
+----------------------------------------------
+
+11. testJugar14()
+
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		return true;
+	}
+
+
+----------------------------------------------
+
+12. testJugar15()
+
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		return true;
+	}
+
+
+----------------------------------------------
+
+13. testJugar11()
+
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		return true;
+	}
+
+----------------------------------------------
+
+14. testJugar01()
+
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		return true;
+	}
+
+----------------------------------------------
+
+15. testJugar41()
+
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		return true;
+	}
+
+----------------------------------------------
+
+16. testJugar51()
+
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		return true;
+	}
+
+----------------------------------------------
+
+17. testSiguienteJugador1To2()
+
+	private int jugadorEnJuego;
+	
+	public Juego() {
+		jugadorEnJuego = 1;
+	}
+	
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public void siguienteJugador() {
+		if(jugadorEnJuego == 1) {
+			jugadorEnJuego = 2;
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		return true;
+	}
+
+	public int getJugadorEnJuego() {
+		return jugadorEnJuego;
+	}
+
+	public void setJugadorEnJuego(int jugadorEnJuego) {
+		this.jugadorEnJuego = jugadorEnJuego;
+	}
+
+----------------------------------------------
+
+18. testSiguienteJugador2To1()
+
+	private int jugadorEnJuego;
+	
+	public Juego() {
+		jugadorEnJuego = 1;
+	}
+	
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public void siguienteJugador() {
+		if(jugadorEnJuego == 1) {
+			jugadorEnJuego = 2;
+		}
+		else{
+			jugadorEnJuego = 1;
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		return true;
+	}
+
+	public int getJugadorEnJuego() {
+		return jugadorEnJuego;
+	}
+
+	public void setJugadorEnJuego(int jugadorEnJuego) {
+		this.jugadorEnJuego = jugadorEnJuego;
+	}
+
+----------------------------------------------
+
+19. testSinAmenaza()
+
+	private int jugadorEnJuego;
+	private int [] torresJugador1;
+	private int [] torresJugador2;
+	
+	public Juego(int [] torresJugador1, int [] torresJugador2) {
+		jugadorEnJuego = 1;
+		this.torresJugador1 = torresJugador1;
+		this.torresJugador2 = torresJugador2;
+	}
+	
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public void siguienteJugador() {
+		if(jugadorEnJuego == 1) {
+			jugadorEnJuego = 2;
+		}
+		else{
+			jugadorEnJuego = 1;
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public boolean determinarAmenaza() {
+		return false;
+	}
+	
+	public int getJugadorEnJuego() {
+		return jugadorEnJuego;
+	}
+
+	public void setJugadorEnJuego(int jugadorEnJuego) {
+		this.jugadorEnJuego = jugadorEnJuego;
+	}
+
+----------------------------------------------
+
+20. testAmenazaFila()
+
+	private int jugadorEnJuego;
+	private int [] torresJugador1;
+	private int [] torresJugador2;
+	
+	public Juego(int [] torresJugador1, int [] torresJugador2) {
+		jugadorEnJuego = 1;
+		this.torresJugador1 = torresJugador1;
+		this.torresJugador2 = torresJugador2;
+	}
+	
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public void siguienteJugador() {
+		if(jugadorEnJuego == 1) {
+			jugadorEnJuego = 2;
+		}
+		else{
+			jugadorEnJuego = 1;
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public boolean determinarAmenaza() {
+		if(torresJugador1[0] == torresJugador2[0] || torresJugador1[0] == torresJugador2[2]
+				|| torresJugador1[2] == torresJugador2[0] || torresJugador1[2] == torresJugador2[2]) {
+			return true;
+		}
+
+		return false;
+	}
+	
+	public int getJugadorEnJuego() {
+		return jugadorEnJuego;
+	}
+
+	public void setJugadorEnJuego(int jugadorEnJuego) {
+		this.jugadorEnJuego = jugadorEnJuego;
+	}
+
+----------------------------------------------
+
+21. testAmenazaColumna()
+
+	private int jugadorEnJuego;
+	private int [] torresJugador1;
+	private int [] torresJugador2;
+	
+	public Juego(int [] torresJugador1, int [] torresJugador2) {
+		jugadorEnJuego = 1;
+		this.torresJugador1 = torresJugador1;
+		this.torresJugador2 = torresJugador2;
+	}
+	
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public void siguienteJugador() {
+		if(jugadorEnJuego == 1) {
+			jugadorEnJuego = 2;
+		}
+		else {
+			jugadorEnJuego = 1;
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public boolean determinarAmenaza() {
+		if(torresJugador1[0] == torresJugador2[0] || torresJugador1[0] == torresJugador2[2]
+				|| torresJugador1[2] == torresJugador2[0] || torresJugador1[2] == torresJugador2[2]) {
+			return true;
+		}
+		
+		if(torresJugador1[1] == torresJugador2[1] || torresJugador1[1] == torresJugador2[3]
+				|| torresJugador1[3] == torresJugador2[1] || torresJugador1[3] == torresJugador2[3]) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	public int getJugadorEnJuego() {
+		return jugadorEnJuego;
+	}
+
+	public void setJugadorEnJuego(int jugadorEnJuego) {
+		this.jugadorEnJuego = jugadorEnJuego;
+	}
+
+----------------------------------------------
+
+22. testComprobarPosicionEnTableroZonaLibre()
+
+	private int jugadorEnJuego;
+	private int [] torresJugador1;
+	private int [] torresJugador2;
+	
+	public Juego(int [] torresJugador1, int [] torresJugador2) {
+		jugadorEnJuego = 1;
+		this.torresJugador1 = torresJugador1;
+		this.torresJugador2 = torresJugador2;
+	}
+	
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public void siguienteJugador() {
+		if(jugadorEnJuego == 1) {
+			jugadorEnJuego = 2;
+		}
+		else {
+			jugadorEnJuego = 1;
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public boolean determinarAmenaza() {
+		if(torresJugador1[0] == torresJugador2[0] || torresJugador1[0] == torresJugador2[2]
+				|| torresJugador1[2] == torresJugador2[0] || torresJugador1[2] == torresJugador2[2]) {
+			return true;
+		}
+		
+		if(torresJugador1[1] == torresJugador2[1] || torresJugador1[1] == torresJugador2[3]
+				|| torresJugador1[3] == torresJugador2[1] || torresJugador1[3] == torresJugador2[3]) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	public int getJugadorEnJuego() {
+		return jugadorEnJuego;
+	}
+
+	public void setJugadorEnJuego(int jugadorEnJuego) {
+		this.jugadorEnJuego = jugadorEnJuego;
+	}
+
+----------------------------------------------
+
+23. testComprobarPosicionEnTableroZonaNoLibreJ1T1()
+
+	private int jugadorEnJuego;
+	private int [] torresJugador1;
+	private int [] torresJugador2;
+	
+	public Juego(int [] torresJugador1, int [] torresJugador2) {
+		jugadorEnJuego = 1;
+		this.torresJugador1 = torresJugador1;
+		this.torresJugador2 = torresJugador2;
+	}
+	
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public void siguienteJugador() {
+		if(jugadorEnJuego == 1) {
+			jugadorEnJuego = 2;
+		}
+		else {
+			jugadorEnJuego = 1;
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		if(x == torresJugador1[0] && y == torresJugador1[1]) {
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public boolean determinarAmenaza() {
+		if(torresJugador1[0] == torresJugador2[0] || torresJugador1[0] == torresJugador2[2]
+				|| torresJugador1[2] == torresJugador2[0] || torresJugador1[2] == torresJugador2[2]) {
+			return true;
+		}
+		
+		if(torresJugador1[1] == torresJugador2[1] || torresJugador1[1] == torresJugador2[3]
+				|| torresJugador1[3] == torresJugador2[1] || torresJugador1[3] == torresJugador2[3]) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	public int getJugadorEnJuego() {
+		return jugadorEnJuego;
+	}
+
+	public void setJugadorEnJuego(int jugadorEnJuego) {
+		this.jugadorEnJuego = jugadorEnJuego;
+	}
+
+----------------------------------------------
+
+24. testComprobarPosicionEnTableroZonaNoLibreJ1T2()
+
+	private int jugadorEnJuego;
+	private int [] torresJugador1;
+	private int [] torresJugador2;
+	
+	public Juego(int [] torresJugador1, int [] torresJugador2) {
+		jugadorEnJuego = 1;
+		this.torresJugador1 = torresJugador1;
+		this.torresJugador2 = torresJugador2;
+	}
+	
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public void siguienteJugador() {
+		if(jugadorEnJuego == 1) {
+			jugadorEnJuego = 2;
+		}
+		else {
+			jugadorEnJuego = 1;
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		if(x == torresJugador1[0] && y == torresJugador1[1]) {
+			return false;
+		}
+
+		if(x == torresJugador1[2] && y == torresJugador1[3]) {
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public boolean determinarAmenaza() {
+		if(torresJugador1[0] == torresJugador2[0] || torresJugador1[0] == torresJugador2[2]
+				|| torresJugador1[2] == torresJugador2[0] || torresJugador1[2] == torresJugador2[2]) {
+			return true;
+		}
+		
+		if(torresJugador1[1] == torresJugador2[1] || torresJugador1[1] == torresJugador2[3]
+				|| torresJugador1[3] == torresJugador2[1] || torresJugador1[3] == torresJugador2[3]) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	public int getJugadorEnJuego() {
+		return jugadorEnJuego;
+	}
+
+	public void setJugadorEnJuego(int jugadorEnJuego) {
+		this.jugadorEnJuego = jugadorEnJuego;
+	}
+
+----------------------------------------------
+
+25. testComprobarPosicionEnTableroZonaNoLibreJ2T1()
+
+	private int jugadorEnJuego;
+	private int [] torresJugador1;
+	private int [] torresJugador2;
+	
+	public Juego(int [] torresJugador1, int [] torresJugador2) {
+		jugadorEnJuego = 1;
+		this.torresJugador1 = torresJugador1;
+		this.torresJugador2 = torresJugador2;
+	}
+	
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public void siguienteJugador() {
+		if(jugadorEnJuego == 1) {
+			jugadorEnJuego = 2;
+		}
+		else {
+			jugadorEnJuego = 1;
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		if(x == torresJugador1[0] && y == torresJugador1[1]) {
+			return false;
+		}
+		
+		if(x == torresJugador1[2] && y == torresJugador1[3]) {
+			return false;
+		}
+		
+		if(x == torresJugador2[0] && y == torresJugador2[1]) {
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public boolean determinarAmenaza() {
+		if(torresJugador1[0] == torresJugador2[0] || torresJugador1[0] == torresJugador2[2]
+				|| torresJugador1[2] == torresJugador2[0] || torresJugador1[2] == torresJugador2[2]) {
+			return true;
+		}
+		
+		if(torresJugador1[1] == torresJugador2[1] || torresJugador1[1] == torresJugador2[3]
+				|| torresJugador1[3] == torresJugador2[1] || torresJugador1[3] == torresJugador2[3]) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	public int getJugadorEnJuego() {
+		return jugadorEnJuego;
+	}
+
+	public void setJugadorEnJuego(int jugadorEnJuego) {
+		this.jugadorEnJuego = jugadorEnJuego;
+	}
+
+----------------------------------------------
+
+26. testComprobarPosicionEnTableroZonaNoLibreJ2T2()
+
+	private int jugadorEnJuego;
+	private int [] torresJugador1;
+	private int [] torresJugador2;
+	
+	public Juego(int [] torresJugador1, int [] torresJugador2) {
+		jugadorEnJuego = 1;
+		this.torresJugador1 = torresJugador1;
+		this.torresJugador2 = torresJugador2;
+	}
+	
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public void siguienteJugador() {
+		if(jugadorEnJuego == 1) {
+			jugadorEnJuego = 2;
+		}
+		else {
+			jugadorEnJuego = 1;
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		if(x == torresJugador1[0] && y == torresJugador1[1]) {
+			return false;
+		}
+		
+		if(x == torresJugador1[2] && y == torresJugador1[3]) {
+			return false;
+		}
+		
+		if(x == torresJugador2[0] && y == torresJugador2[1]) {
+			return false;
+		}
+		
+		if(x == torresJugador2[2] && y == torresJugador2[3]) {
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public boolean determinarAmenaza() {
+		if(torresJugador1[0] == torresJugador2[0] || torresJugador1[0] == torresJugador2[2]
+				|| torresJugador1[2] == torresJugador2[0] || torresJugador1[2] == torresJugador2[2]) {
+			return true;
+		}
+		
+		if(torresJugador1[1] == torresJugador2[1] || torresJugador1[1] == torresJugador2[3]
+				|| torresJugador1[3] == torresJugador2[1] || torresJugador1[3] == torresJugador2[3]) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	public int getJugadorEnJuego() {
+		return jugadorEnJuego;
+	}
+
+	public void setJugadorEnJuego(int jugadorEnJuego) {
+		this.jugadorEnJuego = jugadorEnJuego;
+	}
+
+----------------------------------------------
+
+27. testJugar21()
+
+	private int jugadorEnJuego;
+	private int [] torresJugador1;
+	private int [] torresJugador2;
+	
+	public Juego(int [] torresJugador1, int [] torresJugador2) {
+		jugadorEnJuego = 1;
+		this.torresJugador1 = torresJugador1;
+		this.torresJugador2 = torresJugador2;
+	}
+	
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public void siguienteJugador() {
+		if(jugadorEnJuego == 1) {
+			jugadorEnJuego = 2;
+		}
+		else {
+			jugadorEnJuego = 1;
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		if(x == torresJugador1[0] && y == torresJugador1[1]) {
+			return false;
+		}
+		
+		if(x == torresJugador1[2] && y == torresJugador1[3]) {
+			return false;
+		}
+		
+		if(x == torresJugador2[0] && y == torresJugador2[1]) {
+			return false;
+		}
+		
+		if(x == torresJugador2[2] && y == torresJugador2[3]) {
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public boolean determinarAmenaza() {
+		if(torresJugador1[0] == torresJugador2[0] || torresJugador1[0] == torresJugador2[2]
+				|| torresJugador1[2] == torresJugador2[0] || torresJugador1[2] == torresJugador2[2]) {
+			return true;
+		}
+		
+		if(torresJugador1[1] == torresJugador2[1] || torresJugador1[1] == torresJugador2[3]
+				|| torresJugador1[3] == torresJugador2[1] || torresJugador1[3] == torresJugador2[3]) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	public int getJugadorEnJuego() {
+		return jugadorEnJuego;
+	}
+
+	public void setJugadorEnJuego(int jugadorEnJuego) {
+		this.jugadorEnJuego = jugadorEnJuego;
+	}
+
+----------------------------------------------
+
+28. testJugar13()
+
+	private int jugadorEnJuego;
+	private int [] torresJugador1;
+	private int [] torresJugador2;
+	
+	public Juego(int [] torresJugador1, int [] torresJugador2) {
+		jugadorEnJuego = 1;
+		this.torresJugador1 = torresJugador1;
+		this.torresJugador2 = torresJugador2;
+	}
+	
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public void siguienteJugador() {
+		if(jugadorEnJuego == 1) {
+			jugadorEnJuego = 2;
+		}
+		else {
+			jugadorEnJuego = 1;
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		if(x == torresJugador1[0] && y == torresJugador1[1]) {
+			return false;
+		}
+		
+		if(x == torresJugador1[2] && y == torresJugador1[3]) {
+			return false;
+		}
+		
+		if(x == torresJugador2[0] && y == torresJugador2[1]) {
+			return false;
+		}
+		
+		if(x == torresJugador2[2] && y == torresJugador2[3]) {
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public boolean determinarAmenaza() {
+		if(torresJugador1[0] == torresJugador2[0] || torresJugador1[0] == torresJugador2[2]
+				|| torresJugador1[2] == torresJugador2[0] || torresJugador1[2] == torresJugador2[2]) {
+			return true;
+		}
+		
+		if(torresJugador1[1] == torresJugador2[1] || torresJugador1[1] == torresJugador2[3]
+				|| torresJugador1[3] == torresJugador2[1] || torresJugador1[3] == torresJugador2[3]) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	public int getJugadorEnJuego() {
+		return jugadorEnJuego;
+	}
+
+	public void setJugadorEnJuego(int jugadorEnJuego) {
+		this.jugadorEnJuego = jugadorEnJuego;
+	}
+
+----------------------------------------------
+
+29. testJugar32()
+
+	private int jugadorEnJuego;
+	private int [] torresJugador1;
+	private int [] torresJugador2;
+	
+	public Juego(int [] torresJugador1, int [] torresJugador2) {
+		jugadorEnJuego = 1;
+		this.torresJugador1 = torresJugador1;
+		this.torresJugador2 = torresJugador2;
+	}
+	
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public void siguienteJugador() {
+		if(jugadorEnJuego == 1) {
+			jugadorEnJuego = 2;
+		}
+		else {
+			jugadorEnJuego = 1;
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		if(x == torresJugador1[0] && y == torresJugador1[1]) {
+			return false;
+		}
+		
+		if(x == torresJugador1[2] && y == torresJugador1[3]) {
+			return false;
+		}
+		
+		if(x == torresJugador2[0] && y == torresJugador2[1]) {
+			return false;
+		}
+		
+		if(x == torresJugador2[2] && y == torresJugador2[3]) {
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public boolean determinarAmenaza() {
+		if(torresJugador1[0] == torresJugador2[0] || torresJugador1[0] == torresJugador2[2]
+				|| torresJugador1[2] == torresJugador2[0] || torresJugador1[2] == torresJugador2[2]) {
+			return true;
+		}
+		
+		if(torresJugador1[1] == torresJugador2[1] || torresJugador1[1] == torresJugador2[3]
+				|| torresJugador1[3] == torresJugador2[1] || torresJugador1[3] == torresJugador2[3]) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	public int getJugadorEnJuego() {
+		return jugadorEnJuego;
+	}
+
+	public void setJugadorEnJuego(int jugadorEnJuego) {
+		this.jugadorEnJuego = jugadorEnJuego;
+	}
+
+----------------------------------------------
+
+30. testJugar34()
+
+	private int jugadorEnJuego;
+	private int [] torresJugador1;
+	private int [] torresJugador2;
+	
+	public Juego(int [] torresJugador1, int [] torresJugador2) {
+		jugadorEnJuego = 1;
+		this.torresJugador1 = torresJugador1;
+		this.torresJugador2 = torresJugador2;
+	}
+	
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public void siguienteJugador() {
+		if(jugadorEnJuego == 1) {
+			jugadorEnJuego = 2;
+		}
+		else {
+			jugadorEnJuego = 1;
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		if(x == torresJugador1[0] && y == torresJugador1[1]) {
+			return false;
+		}
+		
+		if(x == torresJugador1[2] && y == torresJugador1[3]) {
+			return false;
+		}
+		
+		if(x == torresJugador2[0] && y == torresJugador2[1]) {
+			return false;
+		}
+		
+		if(x == torresJugador2[2] && y == torresJugador2[3]) {
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public boolean determinarAmenaza() {
+		if(torresJugador1[0] == torresJugador2[0] || torresJugador1[0] == torresJugador2[2]
+				|| torresJugador1[2] == torresJugador2[0] || torresJugador1[2] == torresJugador2[2]) {
+			return true;
+		}
+		
+		if(torresJugador1[1] == torresJugador2[1] || torresJugador1[1] == torresJugador2[3]
+				|| torresJugador1[3] == torresJugador2[1] || torresJugador1[3] == torresJugador2[3]) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	public int getJugadorEnJuego() {
+		return jugadorEnJuego;
+	}
+
+	public void setJugadorEnJuego(int jugadorEnJuego) {
+		this.jugadorEnJuego = jugadorEnJuego;
+	}
+
+----------------------------------------------
+
+31. testJugar12()
+
+	private int jugadorEnJuego;
+	private int [] torresJugador1;
+	private int [] torresJugador2;
+	
+	public Juego(int [] torresJugador1, int [] torresJugador2) {
+		jugadorEnJuego = 1;
+		this.torresJugador1 = torresJugador1;
+		this.torresJugador2 = torresJugador2;
+	}
+	
+	public void jugar(int x, int y) {
+		if(comprobarPosicion(x,y) == false) {
+			throw new RuntimeException("Posición invalida");
+		}
+	}
+	
+	public void siguienteJugador() {
+		if(jugadorEnJuego == 1) {
+			jugadorEnJuego = 2;
+		}
+		else {
+			jugadorEnJuego = 1;
+		}
+	}
+	
+	public boolean comprobarPosicion(int x, int y){
+		if(x < 1 || x > 4 || y < 1 || y > 4){
+			return false;
+		}
+		
+		if(x == torresJugador1[0] && y == torresJugador1[1]) {
+			return false;
+		}
+		
+		if(x == torresJugador1[2] && y == torresJugador1[3]) {
+			return false;
+		}
+		
+		if(x == torresJugador2[0] && y == torresJugador2[1]) {
+			return false;
+		}
+		
+		if(x == torresJugador2[2] && y == torresJugador2[3]) {
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public boolean determinarAmenaza() {
+		if(torresJugador1[0] == torresJugador2[0] || torresJugador1[0] == torresJugador2[2]
+				|| torresJugador1[2] == torresJugador2[0] || torresJugador1[2] == torresJugador2[2]) {
+			return true;
+		}
+		
+		if(torresJugador1[1] == torresJugador2[1] || torresJugador1[1] == torresJugador2[3]
+				|| torresJugador1[3] == torresJugador2[1] || torresJugador1[3] == torresJugador2[3]) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	public int getJugadorEnJuego() {
+		return jugadorEnJuego;
+	}
+
+	public void setJugadorEnJuego(int jugadorEnJuego) {
+		this.jugadorEnJuego = jugadorEnJuego;
+	}

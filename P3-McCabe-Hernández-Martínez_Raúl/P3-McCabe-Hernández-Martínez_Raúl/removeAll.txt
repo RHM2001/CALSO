@@ -1,0 +1,24 @@
+Camino básico : 1 - 2- 8
+
+	Nombre del caso : Lista vacía.
+	Entrada/Estado : La lista esta vacía. {list.isEmpty()} 
+ 	Valor esperado : Exception class
+
+Camino básico : 1 - 3 - 4 - 5 - 6 - 3 - 7 - 8
+	
+	Nombre del caso : Alguna coincidencia. 
+	Entrada/Estado : La lista no está vacía, con algún elemento dentro que coincida con el valor. 
+ 	Valor esperado : Número de coincidencias y el estado de la lista se modifica.
+
+Camino básico : 1 - 3 - 4 - 6 - 7 - 8
+	
+	Nombre del caso : Sin coincidencia.
+	Entrada/Estado : La lista no esta vacía, sin ningún elemento dentro que coincida con el valor. 
+ 	Valor esperado : Cero y no se modifica la lista.
+
+Camino básico : 1 - 3 - 7 - 8
+	
+	Nombre del caso :  Lista vacía pasando por el "for".
+	No se puede llevar a cabo este caso de prueba debido a que a que nunca va a entrar al "for"
+	siendo el índice mayor o igual a la longitud de la lista.
+ 	

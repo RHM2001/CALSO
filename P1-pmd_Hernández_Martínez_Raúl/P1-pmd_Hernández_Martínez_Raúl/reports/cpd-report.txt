@@ -1,0 +1,99 @@
+Found a 22 line (89 tokens) duplication in the following files: 
+Starting at line 98 of C:\Users\Alumno\Downloads\P2-pmd\P2-pmd\src\juego\geometria\Punto.java
+Starting at line 98 of C:\Users\Alumno\Downloads\P2-pmd\P2-pmd\src\juego\geometria\CopyOfPunto.java
+
+	public Direccion situacion_relativa(Punto otra){
+	    int difX = Math.abs(x - otra.x);
+	    int difY = Math.abs(y - otra.y);
+
+		if (difY == 1 && difX == 0)
+			return Direccion.ARRIBA;
+		if (difY == 1 && difX == 0)
+			return Direccion.ABAJO;
+		if (difY == 0 && difX == 1)
+			return Direccion.IZQUIERDA;
+		if (difY == 0 && difX == 1)
+			return Direccion.DERECHA;
+		
+		return null;
+	}
+	
+	/**
+	* 
+	*  Método para desplazar el punto
+	*
+	*/
+	public Punto desplazar(int incX, int incY){
+=====================================================================
+Found a 21 line (70 tokens) duplication in the following files: 
+Starting at line 142 of C:\Users\Alumno\Downloads\P2-pmd\P2-pmd\src\juego\geometria\Punto.java
+Starting at line 142 of C:\Users\Alumno\Downloads\P2-pmd\P2-pmd\src\juego\geometria\CopyOfPunto.java
+
+	public double distancia (Punto posicion) {
+		return Math.sqrt(Math.pow(x-posicion.getX(), 2)+Math.pow(y-posicion.getY(), 2));
+	}
+	
+	/**
+	 *
+	 * Método toString()
+	 * 
+	 **/
+	@Override
+	public String toString() {
+		return getClass().getName() + " [x=" + x + ", y=" + y + "]"; // NOPMD by Raúl Hernández Martínez on 26/09/22 19:09 - Ley Demeter
+	}
+
+	
+	/**
+	* 
+	*  Método para saber si un punto es igual a otro
+	* 
+	* */
+	public boolean equalsPunto(Punto obj) {
+=====================================================================
+Found a 15 line (63 tokens) duplication in the following files: 
+Starting at line 128 of C:\Users\Alumno\Downloads\P2-pmd\P2-pmd\src\juego\geometria\Punto.java
+Starting at line 128 of C:\Users\Alumno\Downloads\P2-pmd\P2-pmd\src\juego\geometria\CopyOfPunto.java
+
+	public Punto desplazar(Direccion direccion){
+	    switch (direccion){
+	    case ARRIBA : return desplazar(0,1);
+	    case ABAJO: return desplazar(0,-1);
+	    case DERECHA: return desplazar(1, 0);
+	    case IZQUIERDA: return desplazar(-1,0);
+	    default:
+	        return null;
+	    }
+	}
+
+	/** Calcula la distancia entre dos posiciones.
+	 *
+	 */
+	public double distancia (Punto posicion) {
+=====================================================================
+Found a 22 line (33 tokens) duplication in the following files: 
+Starting at line 43 of C:\Users\Alumno\Downloads\P2-pmd\P2-pmd\src\juego\geometria\Punto.java
+Starting at line 43 of C:\Users\Alumno\Downloads\P2-pmd\P2-pmd\src\juego\geometria\CopyOfPunto.java
+
+	public Punto(Punto otra) {
+		this(otra.x, otra.y);
+	}
+
+    /** Devuelve el valor de la coordenada x
+     * 
+     */
+    public int getX() {
+        return x;
+    }
+
+    /** Devuelve el valor de la coordenada x
+     * 
+     */
+    public int getY() {
+        return y;
+    }
+
+	/** Devuelve un nuevo objeto Posicion que representa el valor de la posición
+	 *  adyacente a la instancia actual en la dirección pasada como parámetro.
+	 */
+	public Punto Adyacente(Direccion direccion) {
